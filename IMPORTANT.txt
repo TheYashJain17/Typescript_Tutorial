@@ -1,0 +1,35 @@
+                                TYPESCRIPT
+
+
+Typescript is the upgraded version of the javascript as there are some chances of errors inside the normal
+javascript as we could asign a string at the place of number.
+
+For ex - we could write '10' instead of 10 and javscript wouldnt give us any error as it is okay For
+javascript.
+
+And these types of errors could happen when we are working on a big project and sometimes mistakenly
+we provide the string instead of number or any other error of this type can happen.
+
+So to prevent these types of error Typescript has been introduced as whenver we gonna do these type of errors
+Typescript will gonna warn us that we are doing the wrong thing and correct your mistake.
+
+It is not a good practice to define type of every variable again and again , we should depend upon on 
+Inference property of typescript which automatically detects the type of the variable , so we should 
+depend upon that rather than defining type of the variable again and again.
+See Inference folder for better understanding.
+
+
+So To convert the Typescript file into javascript file we have to write 
+tsc then filename inside the cosole.
+
+And remember not to open both the files(ts and js) together otherwise we will get an error , just open them
+separately and our error will br gone.
+
+If there is any error inside our ts file then our ts file will not gonna compile.
+
+when we will get the compiled js file then the data inside of js file will be absoulutely same as our
+normal javascript as we wouldnt see all the things which we wrote inside our Typescript file
+as those things are only limited to Typescript file and not the javascript file.
+
+To know about all the functionalities of tsconfig.json checkout typescript documentation for more information.
+
